@@ -1,0 +1,11 @@
+what is html - HyperText Markup Language?
+
+HTML is the standard markup language used to create the structure of web pages.
+
+
+Three Ways to write CSS: 
+
+1. Inline CSS
+2. Internal CSS
+3. External CSS
+

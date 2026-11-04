@@ -1,0 +1,114 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    font-size: large;
+}
+/* Element/tag Selector */
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: gray;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+            button {
+                background-color: blue; 
+                color: white;
+                border-radius: 8px;
+                padding: 10px 20px;
+                /* border-color: black; */
+                /* border-width: 2px; */
+                /* border-style: solid; */
+                box-shadow: 2px 5px 5px 10px pink; 
+                /* offset-x offset-y blur-radius spread-radius color */
+            }
+
+/* Class selector */
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.description1 {
+    background-color: lightgray;
+    color: green;
+
+}
+
+.description2 {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+/* Id selector */
+#first_para {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    text-align: justify;
+}
+
+/* Grop selector */
+#first_para, p, h1 {
+    color: orange;
+}
+
+/* Descedant Selector */
+
+.container p, .container b {
+    font-size: 14px;
+    color: purple;
+}
+
+/* Child Selector */
+.container > p {
+    font-size: 14px;
+    color: green;
+    /* border: 5px solid black; */
+    /* border-radius: 20%; */
+    text-align: center;
+        width: 50vw;
+        height: 20vh;
+
+}
+
+/* Common CSS Properties */
+
+/* 
+color: Sets the text color of an element. (hex e.g. white : #ffffff, black : #000000, rgb e.g. rgb(255, 0, 0), rgba e.g. rgba(255, 0, 0, 0.5), named colors e.g. red)
+background-color: Sets the background color of an element. (hex e.g. white : #ffffff, black : #000000, rgb e.g. rgb(255, 0, 0), rgba e.g. rgba(255, 0, 0, 0.5), named colors e.g. red)
+font-size: Sets the size of the font. (e.g. 16px, 1em, 1.5rem)  
+font-weight: Sets the weight (boldness) (multiple of 100) of the font. (e.g. normal, bold, 100, 200, 300, 400, 500, 600, 700, 800, 900)
+font-family: Sets the font family of the text. (e.g. Arial, Helvetica, sans-serif)
+text-align: Sets the horizontal alignment of the text. (e.g. left, right, center, justify)
+text-decoration: Sets the decoration of the text. (e.g. none, underline, overline, line-through)
+border: Sets the border of an element. (e.g. 1px solid black, 2px dashed red)
+border-radius: Sets the rounded corners of an element. (e.g. 5px, 50%)
+box-shadow: Sets the shadow effect of an element. (e.g. 2px 2px 5px gray, 0 0 10px rgba(0, 0, 0, 0.5))
+
+Notes: 
+
+px : Pixels, a unit of measurement for screen resolution. 1px = 1/96th of an inch.
+%: Percentage, a relative unit of measurement based on the parent element's size.
+em : Relative unit of measurement based on the font size of the parent element. 1em = 100% of the parent element's font size.
+rem: Relative unit of measurement based on the font size of the root element. 1rem = 100% of the root element's font size.
+vw: Relative unit of measurement based on the viewport width. 1vw = 1% of the viewport width.
+vh: Relative unit of measurement based on the viewport height. 1vh = 1% of the viewport height.
+
+*/
